@@ -2,6 +2,16 @@
 
 A modern, futuristic React application built with TypeScript, featuring a comprehensive dashboard, member management system, and interactive analytics charts.
 
+## 🌐 **Live Demo**
+
+**🚀 [View Live Application](https://second-chapter12.netlify.app/)**
+
+Experience the full application with all features including:
+- 📊 Interactive Analytics Dashboard with Charts
+- 👥 Member Management System  
+- 🎨 Futuristic UI with Light/Dark Mode
+- 📱 Responsive Design for All Devices
+
 ## ✨ Features
 
 - **🎨 Modern Futuristic UI**: Glass morphism design with light/dark mode support
@@ -26,6 +36,9 @@ A modern, futuristic React application built with TypeScript, featuring a compre
 - **Package Manager**: Yarn
 
 ## 🚀 Quick Start
+
+### 🌐 **Live Application**
+**Visit**: [https://second-chapter12.netlify.app/](https://second-chapter12.netlify.app/)
 
 ### Prerequisites
 
@@ -172,6 +185,22 @@ src/
 - **Decision**: localStorage persistence for user preferences
 - **Justification**: Better user experience, no data loss on refresh
 - **Implementation**: Zustand persist middleware
+
+## 🚀 Deployment
+
+### **Netlify Deployment**
+This application is automatically deployed on [Netlify](https://netlify.com) with the following configuration:
+
+- **Live URL**: [https://second-chapter12.netlify.app/](https://second-chapter12.netlify.app/)
+- **Build Command**: `yarn install --frozen-lockfile && yarn build`
+- **Publish Directory**: `dist/`
+- **Node.js Version**: 20.x
+- **Package Manager**: Yarn
+
+### **Automatic Deployment**
+- **Trigger**: Push to `main` branch
+- **Build**: Automatic TypeScript compilation and Vite build
+- **Deploy**: Instant deployment to Netlify CDN
 
 ## 🚫 What NOT to Push
 
