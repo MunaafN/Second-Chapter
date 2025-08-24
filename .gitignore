@@ -119,3 +119,6 @@ coverage/
 
 # Misc
 *.tsbuildinfo
+
+# Package managers
+yarn.lock
